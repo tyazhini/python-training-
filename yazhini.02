@@ -1,0 +1,56 @@
+Write a program to execute the datas with the statement.
+
+Input Format
+
+first input corresponds to integer
+second input corresponds to float
+third input corresponds to char
+fourth input correspond to string
+fifth input correspond to String
+Constraints
+
+No Constraints
+
+Output Format
+
+execute the user inputs with the statemets
+Sample Input 0
+
+23
+45.56
+A
+hello
+hello world
+Sample Output 0
+
+Integer is 23
+Float is 45.56
+Character is A
+Strings are hello and hello world
+Contest ends in 8 days
+Submissions: 44
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+Test Case #0
+ Test Case #1
+ Test Case #2
+ Test Case #3
+ Test Case #4
+
+Submitted Code
+Language: Python 3
+
+ Open in editor
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+num = int(input())
+fnum = float(input())
+ch = input().strip()
+str1 = input().strip()
+str2 = input().strip()
+print(f"Integer is {num}")
+print(f"Float is {fnum}")
+print(f"Character is {ch}")
+print(f"Strings are {str1} and {str2}")
