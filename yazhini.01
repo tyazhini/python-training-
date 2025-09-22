@@ -1,0 +1,28 @@
+Write a program to execute the statement of given input.
+Input Format
+
+input consist of string
+Constraints
+
+No Constraints
+
+Output Format
+
+executes the given string input
+Sample Input 0
+
+welcome to c programming language
+Sample Output 0
+
+welcome to c programming language
+
+ Test Case #0
+ Test Case #1
+ Test Case #2
+
+Submitted Code
+Language: Python 3
+
+ Open in editor
+a = input()
+print (a)
