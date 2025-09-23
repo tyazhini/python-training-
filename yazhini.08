@@ -1,0 +1,64 @@
+John wants to know how to calculate the subject marks.could you please help him to learn marks calculation in programming.
+
+Input Format
+
+First input consists of String
+Second input consists of integer
+Third input consists of integer
+Fourth input consists of integer
+Fifth input consists of integer
+Sixth input consists of integer
+Constraints
+
+No Constraints
+
+Output Format
+
+Execute the total and Average Marks.
+Sample Input 0
+
+John
+100
+99
+100
+100
+99
+Sample Output 0
+
+Name of the Student:John
+Total marks:498
+Average marks:99.6
+Contest ends in 7 days
+Submissions: 46
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+    
+Test Case #0
+ Test Case #1
+ Test Case #2
+
+Submitted Code
+Language: Python 3
+
+ Open in editor
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+
+import math
+area=int(input())
+length=int(input())
+width=int(input())
+radius=int(input())
+side1=int(input())
+base=int(input())
+side2=int(input())
+square=4*area
+rectangle=2*(length+width)
+circle=2*math.pi*radius
+triangle=side1+base+side2
+print("Perimeter of Square:"+str(square))
+print("Perimeter of Rectangle:"+str(rectangle))
+print(f"Perimeter of Circle:{int(circle*100)/100}")
+print(f"Perimeter of Triangle:"+str(int(triangle)))                        
