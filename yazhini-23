@@ -1,0 +1,55 @@
+Maya wants to know how the Numbers are converted to string in the program.could you please help her to implements the program.
+
+Input Format
+
+input consists of one integer
+Constraints
+
+Given N is greater than 0 and lesser than 9
+Output Format
+
+print the number into string type.
+Sample Input 0
+
+0
+Sample Output 0
+
+Integer is 0 and String is Zero
+Sample Input 1
+
+2
+Sample Output 1
+
+Integer is 2 and String is Two
+Sample Input 2
+
+10
+Sample Output 2
+
+Invalid Input
+Contest ends in 6 days
+Submissions: 21
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
+ 
+Test Case #0
+ Test Case #1
+ Test Case #2
+ Test Case #3
+ Test Case #4
+ Test Case #5
+ Test Case #6
+
+Submitted Code
+Language: Python 3
+
+ Open in editor
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+n = int(input())
+s = ["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"]
+print(f"Integer is {n} and String is {s[n]}" if 0 <= n < 9 else "Invalid Input")
