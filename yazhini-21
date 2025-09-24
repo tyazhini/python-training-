@@ -1,0 +1,61 @@
+Riya wants to find the greatest of three numbers.could you please help her to find the greatest of three numbers that implements in programming.
+
+Input Format
+
+Input consists of three integer.
+Constraints
+
+No Constraints
+
+Output Format
+
+print the greatest of three Number.
+Sample Input 0
+
+10
+20
+30
+Sample Output 0
+
+Number3 is maximum with value of 30.0
+Sample Input 1
+
+5
+6
+6
+Sample Output 1
+
+Number3 is maximum with value of 6.0
+Sample Input 2
+
+7
+8
+5
+Sample Output 2
+
+Number2 is maximum with value of 8.0
+Contest ends in 6 days
+Submissions: 23
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
+ Test Case #0
+ Test Case #1
+ Test Case #2
+ Test Case #3
+ Test Case #4
+
+Submitted Code
+Language: Python 3
+
+ Open in editor
+
+a,b,c=int(input()),int(input()),int(input())
+m=max(a,b,c)
+i=3 if c==m else 2 if b==m else 1
+print(f"Number{i} is maximum with value of {m:.1f}")
+
+​
