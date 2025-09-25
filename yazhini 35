@@ -1,0 +1,53 @@
+Riya wants to clear the logical Reasoning in the Placement.she has a doubt in the topic of series number.She didn't to how to execute the series number and how to calculate it.Could you please help her to implements the program.
+
+Input Format
+
+Input consists of one integer.
+Constraints
+
+No Constraints
+
+Output Format
+
+Execute the series of numbers.
+Sample Input 0
+
+5
+Sample Output 0
+
+Number series from 1 to 5 is 2 3 4 6 6
+Sample Input 1
+
+8
+Sample Output 1
+
+Number series from 1 to 8 is 2 3 4 6 6 9 8 12
+Contest ends in 5 days
+Submissions: 26
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
+ 
+1
+​est Case #0
+ Test Case #1
+ Test Case #2
+ Test Case #3
+
+Submitted Code
+Language: Python 3
+
+ Open in editor
+
+n=int(input())
+res=[]
+for i in range(1,n+1):
+    if i%2==1:
+        res.append(str(i+1))
+    else:
+        res.append(str((i*3)//2))
+print(f"Number series from 1 to {n} is {' '.join(res)}")
+​
