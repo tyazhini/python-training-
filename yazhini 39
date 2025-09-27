@@ -1,0 +1,72 @@
+Sanjay wants to know whether the user input is Automorphic number or not.
+
+For example,
+
+    The Automorphic number is square of the number ends with the Same number. 
+    Square of 5 is 25,its ends with the value of 5.
+    so the number 5 is Automorphic Number.
+could you please help him to find it and implements in program.
+
+Input Format
+
+Input consists of one integer
+Constraints
+
+Given N is greater than 1 and lesser than 9.
+
+Output Format
+
+Print the statement whether the given number is "Automorphic Number" or "Not Automarphic Number".
+Sample Input 0
+
+5
+Sample Output 0
+
+The Number 5.0 is Automorphic Number
+Sample Input 1
+
+9
+Sample Output 1
+
+The Number 9.0 is Not Automorphic Number
+Sample Input 2
+
+12
+Sample Output 2
+
+Invalid Input
+Contest ends in 3 days
+Submissions: 69
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
+ 
+1
+​Test Case #0
+ Test Case #1
+ Test Case #2
+ Test Case #3
+ Test Case #4
+
+Submitted Code
+Language: Python 3
+
+ Open in editor
+
+n=int(input())
+
+if n<=1 or n>=10:
+
+    print("Invalid Input")
+
+else:
+
+    square=n*n
+
+    if square%(10**len(str(n)))==n:
+       print(f"The Number {float(n)} is Automorphic Number")
+    else
+        print(f"The Number {float(n)} is Not Automorphic Number")
