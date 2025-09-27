@@ -1,0 +1,63 @@
+Write the Program to execute the program.
+
+Input Format
+
+Input consist of single integer.
+
+Constraints
+
+No Constraints
+
+Output Format
+
+Execute the pattern
+
+Sample Input 0
+
+7
+Sample Output 0
+
++     +
++     +
++     +
++$$$$$+
++     +
++     +
++     +
+Sample Input 1
+
+11
+Sample Output 1
+
++         +
++         +
++         +
++         +
++         +
++$$$$$$$$$+
++         +
++         +
++         +
++         +
++         +
+Contest ends in 3 days
+Submissions: 31Test Case #0
+ Test Case #1
+ Test Case #2
+ Test Case #3
+ Test Case #4
+ Test Case #5
+
+Submitted Code
+Language: Python 3
+
+ Open in editor
+
+n = int(input())
+mid = n // 2 + 1
+for i in range(1, n + 1):
+    if i == mid:
+        print("+" + "$" * (n - 2) + "+")
+    else:
+        print("+" + " " * (n - 2) + "+")
+​
